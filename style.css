@@ -97,6 +97,7 @@ border-radius: 5px;
     border-radius: 5px;
     margin-left: 42%;
     margin-top: 30px;
+    margin-bottom: 30px;
     
 }
 
@@ -109,21 +110,21 @@ border-radius: 5px;
 
 
 #food_area {
-    background-color: rgb(129, 253, 212);
+    background-color: #edf5f6;
     margin: 0 8px;
     border-radius: 10px;
     width: 32%;
 }
 
 #uniform_area {
-    background-color: rgb(56, 247, 183);
+    background-color: #ffeeee;
     border-radius: 10px;
     margin: 0 8px;
     width: 32%;
 }
 
 #stationary_area {
-    background-color: rgb(182, 255, 231);
+    background-color: #fff4d6;
     border-radius: 10px;
     margin: 0 8px;
     width: 32%;
@@ -132,13 +133,22 @@ border-radius: 5px;
     margin-top: 50px;
 }
 .donation-plan-title >h1{
+    margin-top: 60px;
     text-align: center;
     font-size: 42px;
+}
+.donation-plan-title >p{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 40px;
 }
 .donation-plan{
     display: flex;
     flex-direction: row;
     margin: 10px;
+}
+.donate_txt_mrgn{
+    margin: 20px;
 }
 
 
